@@ -1,5 +1,8 @@
 # A6300 Bulb Intervalometer
 
+This is an app I created using Claude to fulfil a specific task. It is offered as is - I am not a developer :)
+I wanted an intervalometer app that would allow to set multiple long exposure on my Sony A6300 camera. I couldn't find an app which performed this so I asked Claude if we could build one together. I gathered the retired Sony sdk info and worked from there. I have tested it successfully an old Android 11 phone and Sony A6300 camera. If it helps anyone else then please use freely.   
+
 An Android app that turns a phone into an intervalometer for the **Sony A6300**, with exposures **longer than the camera's built-in 30 second limit** (tested up to 120 s). It was built for astrophotography on a tracking mount, where the camera takes a short run of long frames.
 
 The app talks to the camera over its own Wi-Fi using Sony's Camera Remote API. No cables, no extra hardware.
